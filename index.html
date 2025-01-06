@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>Simple Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Trivia</h1>
+   
+    <h2 id="score">Puntuación: 0</h2>
+    <h2 id="question"></h2>
+    <div id="choices">
+      <button id="choice1" onclick="checkAnswer(this)"></button>
+      <button id="choice2" onclick="checkAnswer(this)"></button>
+      <button id="choice3" onclick="checkAnswer(this)"></button>
+      <button id="choice4" onclick="checkAnswer(this)"></button>
+    </div>
+  <div id="result"></div>
+  <button id="retryBtn" onclick="retry()" style="display: none;">Retry</button>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
